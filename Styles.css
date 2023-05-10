@@ -14,7 +14,7 @@
     position:absolute;
     background: black;
     border-radius: 10px;
-   
+    transform-origin: bottom;
 }
 
 #hour {
@@ -22,20 +22,23 @@
     width:10px;
     top:137px;
     left:266.5px;
+    display: none ;
 }
 
 #min {
-    height:180px;
+    height:165px;
     width:10px;
-    top:100px;
+    top:115px;
     opacity: 0.5;
     left:266.5px;
+    display: none;
 }
 
-#second {
+#second{
     height:210px;
     width:10px;
     top:71px;
-    opacity: 0.5;
-    left:267px;
+    opacity: 0.1;
+    left:265px;
+    
 }
